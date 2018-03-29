@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/*demo 3*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: mspgothic;
+  src: url(‘../fonts/ms-pgothic.ttf’) format(‘truetype’);
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: hirakakustd;
+  src: url(‘../fonts/hirakakustd.otf’) format(‘opentype’);
+  font-weight: normal;
+  font-style: normal; }
+div.clear-fix {
+  clear: both; }
+
+div.inner {
+  min-width: 960px;
+  max-width: 960px;
+  margin: 0 auto;
+  height: auto;
+  clear: both; }
+
+div.header {
+  width: 100%; }
+  div.header div.inner div.head div.header_left {
+    width: 742px;
+    float: left; }
+    div.header div.inner div.head div.header_left h1 {
+      font-family: mspgothic;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      margin-top: 13px;
+      text-align: left;
+      color: #715a44; }
+    div.header div.inner div.head div.header_left img.header_logo {
+      margin: 32px 0px 0px 0px;
+      float: left;
+      max-width: 400px;
+      width: 100%;
+      *width: 400px; }
+  div.header div.inner div.head div.header_right {
+    float: right;
+    width: 218px; }
+    div.header div.inner div.head div.header_right img.header_button {
+      margin-top: 20px; }
+    div.header div.inner div.head div.header_right img.header_phone {
+      margin-top: 5px; }
+    div.header div.inner div.head div.header_right div.group_header_info_1 {
+      margin-top: 7px; }
+      div.header div.inner div.head div.header_right div.group_header_info_1 p {
+        display: inline-block;
+        font-family: hirakakustd;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 12px; }
+    div.header div.inner div.head div.header_right div.group_header_info_2 {
+      margin-top: 4px; }
+      div.header div.inner div.head div.header_right div.group_header_info_2 p {
+        display: inline-block;
+        font-family: hirakakustd;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 12px; }
+  div.header div.inner div.menu {
+    margin-top: 20px; }
+    div.header div.inner div.menu ul li {
+      display: inline-block;
+      float: left;
+      width: 159px;
+      height: 50px;
+      background: url(images/line_menu.jpg); }
+  div.header div.banner {
+    width: 100%;
+    border-top: 1px solid #e9e6e3;
+    border-bottom: 1px solid #e9e6e3;
+    background: url(../images/bg_banner.jpg) repeat-x center top; }
+    div.header div.banner div.inner div.slide {
+      margin: 15px 0px 15px 0px; }
+
+div.inner div.content {
+  float: left;
+  width: 670px; }
+  div.inner div.content div.article_index img.img_1 {
+    margin-top: 40px; }
+  div.inner div.content div.article_index a:hover {
+    opacity: 0.7; }
+div.inner div.aside {
+  width: 250px;
+  margin-left: 40px;
+  float: right; }
+
+/*# sourceMappingURL=main.css.map */
