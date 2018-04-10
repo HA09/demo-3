@@ -382,26 +382,41 @@ div.footer {
         padding-left: 66px;
         display: inline-block; }
         div.footer div.footer_content div.inner div.footer_left ul.list_1 li {
-          padding-bottom: 15px; }
+          padding-bottom: 10px; }
           div.footer div.footer_content div.inner div.footer_left ul.list_1 li a {
             background: url(../images/footer_butllet.png) no-repeat 15px center;
             padding: 0px 0px 0px 30px;
             font-family: mspgothic;
-            font-size: 12px;
+            font-size: 11px;
             font-style: normal;
             color: #715a44; }
       div.footer div.footer_content div.inner div.footer_left ul.list_2 {
         padding-left: 66px;
         display: inline-block; }
+        div.footer div.footer_content div.inner div.footer_left ul.list_2 h3 {
+          padding: 0px 0px 10px 30px;
+          font-family: mspgothic;
+          font-size: 11x;
+          font-style: normal;
+          color: #715a44;
+          font-weight: bold; }
         div.footer div.footer_content div.inner div.footer_left ul.list_2 li {
-          padding-bottom: 15px; }
+          padding-bottom: 10px; }
           div.footer div.footer_content div.inner div.footer_left ul.list_2 li a {
             background: url(../images/footer_butllet.png) no-repeat 15px center;
             padding: 0px 0px 0px 30px;
             font-family: mspgothic;
-            font-size: 12px;
+            font-size: 11px;
             font-style: normal;
             color: #715a44; }
+    div.footer div.footer_content div.inner div.footer_right {
+      float: right;
+      padding-top: 75px; }
+      div.footer div.footer_content div.inner div.footer_right img.footer_logo {
+        padding-right: 45px; }
+      div.footer div.footer_content div.inner div.footer_right img.footer_button {
+        display: block;
+        padding-top: 5px; }
   div.footer div.footer_copyright {
     background: #d3c1a2;
     width: 100%;
